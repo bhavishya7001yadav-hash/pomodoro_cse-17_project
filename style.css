@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background-image:url("assest/space background.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    font-family:Arial,sans-serif;
+
+    height:100vh;
+
+}
+
+.container{
+
+    width:100%;
+    text-align:center;
+    padding-top:80px;
+
+}
+
+h1{
+
+    font-family:'Press Start 2P', cursive;
+    color:#ffffff;
+    font-size:38px;
+    margin-bottom:20px;
+
+}
+
+.tagline{
+
+    font-family:'Press Start 2P', cursive;
+    color:#66d9ff;
+    font-size:12px;
+    margin-bottom:40px;
+
+}
+
+.box{
+
+    width:700px;
+    margin:auto;
+
+    padding:45px;
+
+    background:rgba(0,0,0,0.75);
+
+    border:3px solid #33b5ff;
+
+    border-radius:12px;
+
+}
+
+#timer{
+
+    font-family:'Press Start 2P', cursive;
+    color:white;
+
+    font-size:90px;
+
+    margin-bottom:35px;
+
+}
+
+.progress-bar{
+
+    width:100%;
+    height:20px;
+
+    background:#222;
+
+    border:2px solid #33b5ff;
+
+    border-radius:5px;
+
+    overflow:hidden;
+
+    margin-bottom:35px;
+
+}
+
+.progress{
+
+    width:100%;
+    height:100%;
+
+    background:#33b5ff;
+
+}
+
+/* ---------- Buttons ---------- */
+
+button{
+
+    width:160px;
+    height:55px;
+
+    margin:10px;
+
+    font-family:'Press Start 2P', cursive;
+    font-size:13px;
+
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    box-shadow:4px 4px 0px #000;
+
+}
+
+/* Start */
+
+#start{
+
+    background:#03A33E;
+    border:3px solid #027A2F;
+
+}
+
+#start:hover{
+
+    background:#049C3C;
+
+}
+
+/* Pause */
+
+#pause{
+
+    background:#FAB802;
+    border:3px solid #C98A00;
+
+}
+
+#pause:hover{
+
+    background:#E0A500;
+
+}
+
+/* Reset */
+
+#reset{
+
+    background:#EA4B49;
+    border:3px solid #B63131;
+
+}
+
+#reset:hover{
+
+    background:#D63C3A;
+
+}
+
+.session{
+
+    margin-top:35px;
+
+    font-family:'Press Start 2P', cursive;
+
+    color:white;
+
+    font-size:12px;
+
+}
+
+#count{
+
+    color:#66d9ff;
+
+}
