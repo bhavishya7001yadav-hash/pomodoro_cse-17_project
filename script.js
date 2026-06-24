@@ -1,5 +1,5 @@
 
-let minutes = 25;
+let minutes = 30;
 let seconds = 0;
 
 let timer;
